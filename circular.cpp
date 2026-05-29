@@ -118,4 +118,16 @@ private:
     {
         Queues q;
         char ch;
+
+        while (true)
+        {
+            try
+            {
+                cout << "Menu" << endl;
+                cout << "1. Implement Insert operasi queue" << endl;
+                cout << "2. Implement Delete Operasi queue" << endl;
+                cout << "3. Display values in queue" << endl;
+                cout << "4. Exit" << endl;
+            }
+        }
     }
